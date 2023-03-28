@@ -31,3 +31,5 @@ services:
     image: adminer
     ports:
       - 8888:8080
+volumes:
+  todo-mysql-data:
